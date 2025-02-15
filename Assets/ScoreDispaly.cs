@@ -7,6 +7,7 @@ public class ScoreDispaly : MonoBehaviour
     private ScoreManager scoreManager;
 
     public TMP_Text ScoreUI;
+    public TMP_Text FinalScore;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,5 +22,9 @@ public class ScoreDispaly : MonoBehaviour
         return;
 
         ScoreUI.text = scoreManager.CurrentScore.ToString();
+
+        
+
+        FinalScore.text = ScoreUI.text;
     }
 }

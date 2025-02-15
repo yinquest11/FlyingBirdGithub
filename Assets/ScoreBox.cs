@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreBox : MonoBehaviour
 {
     public int ScoreAmount = 100;
 
     private ScoreManager scoreManager;
+
+    
 
     void Start()
     {

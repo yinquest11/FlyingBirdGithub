@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &69769897994340418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 227440017769708441, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_Size.y
+      value: 2.9797184
+      objectReference: {fileID: 0}
+    - target: {fileID: 227440017769708441, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.091180444
+      objectReference: {fileID: 0}
+    - target: {fileID: 2527968901785513280, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 2527968901785513280, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 135.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584919239261552759, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_Name
+      value: Obstacle Down
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006457278169951840, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010391063928034517, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283490559767684670, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370883938914764110, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3370883938914764110, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 135.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7e41c00c9ea8284e88337e3cc080a3e, type: 3}

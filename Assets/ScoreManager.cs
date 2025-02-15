@@ -1,11 +1,19 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-   public int CurrentScore =0;
+   public int CurrentScore = 0;
+   public AudioClip Clip;
 
+   
+
+   private AudioSource source;
    public void AddScore(int score)
    {
-    CurrentScore += score;
+     source = GetComponent<AudioSource>();
+     source.PlayOneShot(Clip);
+     CurrentScore += score;
+
    }
 }
