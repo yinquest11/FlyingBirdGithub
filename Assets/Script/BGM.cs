@@ -12,7 +12,7 @@ public class BGM : MonoBehaviour
         if(Clip&&source)
         {
             source.clip = Clip;
-            source.Play(); 
+            source.PlayDelayed(3F); 
         }
         
         

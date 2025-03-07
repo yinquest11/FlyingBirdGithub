@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FlyingBird : MonoBehaviour
 {
@@ -38,6 +38,7 @@ public class FlyingBird : MonoBehaviour
             
             if(source&&Clips.Length>0)
         {
+                //Random.Range是静态方法
             int randomClips = Random.Range(0,Clips.Length);
             float randomPich = Random.Range(0,Clips.Length);
 

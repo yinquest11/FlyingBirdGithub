@@ -34,6 +34,8 @@ public class StartAnywhere : MonoBehaviour
             if(graphic.transform.position.x>=0)
             {
                 SceneManager.LoadScene(scene);
+                Debug.Log("Again");
+
             }
 
         }

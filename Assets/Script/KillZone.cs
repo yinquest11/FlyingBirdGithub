@@ -19,6 +19,7 @@ public AudioClip[] Clips;
    private GameManager gameManager;
 
    
+   
     
     private void OnCollisionEnter2D(Collision2D col)
     {
@@ -77,6 +78,7 @@ public AudioClip[] Clips;
 
         }
     }
+
 
     public void Start()
     {

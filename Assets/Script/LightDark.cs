@@ -107,7 +107,7 @@ public class LightDark : MonoBehaviour
 
     public void DestroyAfter()
     {
-        Destroy(AfterEffect);
+        Destroy(AfterEffect,1);
     }
 
     public void DestroyAfterAfter()

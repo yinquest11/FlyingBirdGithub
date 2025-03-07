@@ -1,6 +1,8 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using Unity.Mathematics;
+using Unity.Burst;
 
 public class FishRotate : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class FishRotate : MonoBehaviour
 
     public float Velocity;
 
-
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,9 +35,9 @@ public class FishRotate : MonoBehaviour
 
         //we do our animation magic
         Velocity*=10;
-        Velocity = Mathf.Clamp(Velocity,-1,1);
-        Velocity = Unity.Mathematics.math.remap(-1,1,0,1,Velocity);
-
+        Velocity = Mathf.Clamp(Velocity, -1, 1);
+        Velocity = math.remap(-1F,1F,0F,1F,Velocity);
+        
         transform.rotation = Quaternion.Lerp(Quaternion.Euler(0,0,-20f),Quaternion.Euler(0,0,60f),Velocity);
 
 

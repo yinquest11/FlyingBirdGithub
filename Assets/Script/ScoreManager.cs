@@ -12,7 +12,7 @@ public class ScoreManager : MonoBehaviour
    public void AddScore(int score)
    {
      source = GetComponent<AudioSource>();
-     source.PlayOneShot(Clip);
+     source.PlayOneShot(Clip,1F);
      CurrentScore += score;
 
    }
